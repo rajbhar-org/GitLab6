@@ -3,7 +3,7 @@ const assert = require('node:assert');
 const greet = require('../src/app');
 
 test('should return a greeting message', () => {
-    assert.strictEqual(greet('Rupesh'), 'Hello, Rupesh!');
+    assert.strictEqual(greet('Rupesh'), 'Hello, Wrong!');
 });
 
 test('should return a greeting for another user', () => {
